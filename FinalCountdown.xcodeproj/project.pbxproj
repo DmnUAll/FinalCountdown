@@ -7,35 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6172AEE828C8B18A00888452 /* AppLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6172AEE728C8B18A00888452 /* AppLogic.swift */; };
+		612E2DCB296D83A3007AFE35 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E2DCA296D83A3007AFE35 /* NavigationController.swift */; };
+		612E2DCD296D850E007AFE35 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E2DCC296D850E007AFE35 /* ListView.swift */; };
+		612E2DD0296D85C0007AFE35 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E2DCF296D85C0007AFE35 /* UIView+Extensions.swift */; };
+		612E2DD2296D85FC007AFE35 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E2DD1296D85FC007AFE35 /* UIColor+Extensions.swift */; };
+		612E2DD4296D88B0007AFE35 /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E2DD3296D88B0007AFE35 /* ListViewCell.swift */; };
+		612E2DD6296D8DEC007AFE35 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E2DD5296D8DEC007AFE35 /* ListController.swift */; };
+		612E2DD8296D8E00007AFE35 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E2DD7296D8E00007AFE35 /* ListPresenter.swift */; };
+		612E2DDA296D91BC007AFE35 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E2DD9296D91BC007AFE35 /* CoreDataManager.swift */; };
+		612E2DDC296D9701007AFE35 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E2DDB296D9701007AFE35 /* EventView.swift */; };
+		612E2DDE296D9B3C007AFE35 /* EventNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E2DDD296D9B3C007AFE35 /* EventNameCell.swift */; };
+		612E2DE0296D9C7A007AFE35 /* EventDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E2DDF296D9C7A007AFE35 /* EventDescriptionCell.swift */; };
+		612E2DE2296D9CD4007AFE35 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E2DE1296D9CD4007AFE35 /* CalendarCell.swift */; };
+		612E2DE5296D9E1B007AFE35 /* EventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E2DE4296D9E1B007AFE35 /* EventController.swift */; };
+		612E2DE7296D9E6C007AFE35 /* EventPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E2DE6296D9E6C007AFE35 /* EventPresenter.swift */; };
 		6172AEEA28CA052E00888452 /* DateRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6172AEE928CA052E00888452 /* DateRange.swift */; };
 		61A9EA3828C88EFF0070C5AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A9EA3728C88EFF0070C5AD /* AppDelegate.swift */; };
 		61A9EA3A28C88EFF0070C5AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A9EA3928C88EFF0070C5AD /* SceneDelegate.swift */; };
-		61A9EA3F28C88EFF0070C5AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A9EA3D28C88EFF0070C5AD /* Main.storyboard */; };
 		61A9EA4228C88EFF0070C5AD /* FinalCountdown.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61A9EA4028C88EFF0070C5AD /* FinalCountdown.xcdatamodeld */; };
 		61A9EA4428C88F050070C5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A9EA4328C88F050070C5AD /* Assets.xcassets */; };
 		61A9EA4728C88F050070C5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A9EA4528C88F050070C5AD /* LaunchScreen.storyboard */; };
 		61A9EA5328C8913F0070C5AD /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A9EA5228C8913F0070C5AD /* State.swift */; };
-		61A9EA5528C8923D0070C5AD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A9EA5428C8923D0070C5AD /* MainViewController.swift */; };
-		61A9EA5728C892550070C5AD /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A9EA5628C892550070C5AD /* EventTableViewCell.swift */; };
-		61A9EA5928C8943B0070C5AD /* EventInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A9EA5828C8943B0070C5AD /* EventInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6172AEE728C8B18A00888452 /* AppLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogic.swift; sourceTree = "<group>"; };
+		612E2DCA296D83A3007AFE35 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		612E2DCC296D850E007AFE35 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		612E2DCF296D85C0007AFE35 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		612E2DD1296D85FC007AFE35 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		612E2DD3296D88B0007AFE35 /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		612E2DD5296D8DEC007AFE35 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		612E2DD7296D8E00007AFE35 /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		612E2DD9296D91BC007AFE35 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		612E2DDB296D9701007AFE35 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		612E2DDD296D9B3C007AFE35 /* EventNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventNameCell.swift; sourceTree = "<group>"; };
+		612E2DDF296D9C7A007AFE35 /* EventDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDescriptionCell.swift; sourceTree = "<group>"; };
+		612E2DE1296D9CD4007AFE35 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		612E2DE4296D9E1B007AFE35 /* EventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventController.swift; path = ../../../../../../Downloads/EventController.swift; sourceTree = "<group>"; };
+		612E2DE6296D9E6C007AFE35 /* EventPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPresenter.swift; sourceTree = "<group>"; };
 		6172AEE928CA052E00888452 /* DateRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateRange.swift; sourceTree = "<group>"; };
 		61A9EA3428C88EFF0070C5AD /* FinalCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A9EA3728C88EFF0070C5AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61A9EA3928C88EFF0070C5AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		61A9EA3E28C88EFF0070C5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61A9EA4128C88EFF0070C5AD /* FinalCountdown.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinalCountdown.xcdatamodel; sourceTree = "<group>"; };
 		61A9EA4328C88F050070C5AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61A9EA4628C88F050070C5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61A9EA4828C88F050070C5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61A9EA5228C8913F0070C5AD /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
-		61A9EA5428C8923D0070C5AD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		61A9EA5628C892550070C5AD /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
-		61A9EA5828C8943B0070C5AD /* EventInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +67,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		612E2DC9296D8155007AFE35 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				612E2DD7296D8E00007AFE35 /* ListPresenter.swift */,
+				612E2DE6296D9E6C007AFE35 /* EventPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		612E2DCE296D85AD007AFE35 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				612E2DCF296D85C0007AFE35 /* UIView+Extensions.swift */,
+				612E2DD1296D85FC007AFE35 /* UIColor+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		612E2DE3296D9D99007AFE35 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				612E2DD3296D88B0007AFE35 /* ListViewCell.swift */,
+				612E2DDD296D9B3C007AFE35 /* EventNameCell.swift */,
+				612E2DDF296D9C7A007AFE35 /* EventDescriptionCell.swift */,
+				612E2DE1296D9CD4007AFE35 /* CalendarCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		61A9EA2B28C88EFF0070C5AD = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +118,7 @@
 				61A9EA5128C88F300070C5AD /* Model */,
 				61A9EA5028C88F2C0070C5AD /* View */,
 				61A9EA4F28C88F230070C5AD /* Controller */,
+				612E2DC9296D8155007AFE35 /* Presenter */,
 				61A9EA4E28C88F120070C5AD /* Supporting Files */,
 			);
 			path = FinalCountdown;
@@ -79,6 +127,7 @@
 		61A9EA4E28C88F120070C5AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				612E2DCE296D85AD007AFE35 /* Helpers */,
 				61A9EA3728C88EFF0070C5AD /* AppDelegate.swift */,
 				61A9EA3928C88EFF0070C5AD /* SceneDelegate.swift */,
 				61A9EA4328C88F050070C5AD /* Assets.xcassets */,
@@ -90,9 +139,9 @@
 		61A9EA4F28C88F230070C5AD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				61A9EA5628C892550070C5AD /* EventTableViewCell.swift */,
-				61A9EA5428C8923D0070C5AD /* MainViewController.swift */,
-				61A9EA5828C8943B0070C5AD /* EventInfoViewController.swift */,
+				612E2DCA296D83A3007AFE35 /* NavigationController.swift */,
+				612E2DD5296D8DEC007AFE35 /* ListController.swift */,
+				612E2DE4296D9E1B007AFE35 /* EventController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -100,8 +149,10 @@
 		61A9EA5028C88F2C0070C5AD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				612E2DE3296D9D99007AFE35 /* Cells */,
 				61A9EA4528C88F050070C5AD /* LaunchScreen.storyboard */,
-				61A9EA3D28C88EFF0070C5AD /* Main.storyboard */,
+				612E2DCC296D850E007AFE35 /* ListView.swift */,
+				612E2DDB296D9701007AFE35 /* EventView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -112,7 +163,7 @@
 				61A9EA4028C88EFF0070C5AD /* FinalCountdown.xcdatamodeld */,
 				61A9EA5228C8913F0070C5AD /* State.swift */,
 				6172AEE928CA052E00888452 /* DateRange.swift */,
-				6172AEE728C8B18A00888452 /* AppLogic.swift */,
+				612E2DD9296D91BC007AFE35 /* CoreDataManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -127,6 +178,7 @@
 				61A9EA3028C88EFF0070C5AD /* Sources */,
 				61A9EA3128C88EFF0070C5AD /* Frameworks */,
 				61A9EA3228C88EFF0070C5AD /* Resources */,
+				6198C6BF297029F800C0B989 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -177,40 +229,62 @@
 			files = (
 				61A9EA4728C88F050070C5AD /* LaunchScreen.storyboard in Resources */,
 				61A9EA4428C88F050070C5AD /* Assets.xcassets in Resources */,
-				61A9EA3F28C88EFF0070C5AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6198C6BF297029F800C0B989 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61A9EA3028C88EFF0070C5AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6172AEE828C8B18A00888452 /* AppLogic.swift in Sources */,
-				61A9EA5728C892550070C5AD /* EventTableViewCell.swift in Sources */,
+				612E2DE2296D9CD4007AFE35 /* CalendarCell.swift in Sources */,
+				612E2DDE296D9B3C007AFE35 /* EventNameCell.swift in Sources */,
+				612E2DD8296D8E00007AFE35 /* ListPresenter.swift in Sources */,
+				612E2DDC296D9701007AFE35 /* EventView.swift in Sources */,
 				61A9EA3828C88EFF0070C5AD /* AppDelegate.swift in Sources */,
+				612E2DDA296D91BC007AFE35 /* CoreDataManager.swift in Sources */,
+				612E2DD2296D85FC007AFE35 /* UIColor+Extensions.swift in Sources */,
 				61A9EA4228C88EFF0070C5AD /* FinalCountdown.xcdatamodeld in Sources */,
 				61A9EA5328C8913F0070C5AD /* State.swift in Sources */,
+				612E2DD4296D88B0007AFE35 /* ListViewCell.swift in Sources */,
+				612E2DE5296D9E1B007AFE35 /* EventController.swift in Sources */,
+				612E2DE7296D9E6C007AFE35 /* EventPresenter.swift in Sources */,
 				6172AEEA28CA052E00888452 /* DateRange.swift in Sources */,
-				61A9EA5928C8943B0070C5AD /* EventInfoViewController.swift in Sources */,
+				612E2DD0296D85C0007AFE35 /* UIView+Extensions.swift in Sources */,
+				612E2DCB296D83A3007AFE35 /* NavigationController.swift in Sources */,
+				612E2DD6296D8DEC007AFE35 /* ListController.swift in Sources */,
+				612E2DCD296D850E007AFE35 /* ListView.swift in Sources */,
 				61A9EA3A28C88EFF0070C5AD /* SceneDelegate.swift in Sources */,
-				61A9EA5528C8923D0070C5AD /* MainViewController.swift in Sources */,
+				612E2DE0296D9C7A007AFE35 /* EventDescriptionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		61A9EA3D28C88EFF0070C5AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				61A9EA3E28C88EFF0070C5AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		61A9EA4528C88F050070C5AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,19 +422,21 @@
 				INFOPLIST_FILE = "FinalCountdown/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Ilya.AnimalToKnow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ilya.FinalCountdown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -376,19 +452,21 @@
 				INFOPLIST_FILE = "FinalCountdown/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Ilya.AnimalToKnow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ilya.FinalCountdown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
