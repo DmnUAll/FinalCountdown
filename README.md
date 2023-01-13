@@ -1,5 +1,5 @@
 # FinalCountdown
-Store any important date and watch the time left until it
+Store any important date and watch the time left until it.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/82824022/212078924-38efac5d-b5fd-4474-9b39-764c499ecaf1.PNG" width=30% height=30%>
