@@ -26,7 +26,6 @@
 		61A9EA3A28C88EFF0070C5AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A9EA3928C88EFF0070C5AD /* SceneDelegate.swift */; };
 		61A9EA4228C88EFF0070C5AD /* FinalCountdown.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61A9EA4028C88EFF0070C5AD /* FinalCountdown.xcdatamodeld */; };
 		61A9EA4428C88F050070C5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A9EA4328C88F050070C5AD /* Assets.xcassets */; };
-		61A9EA4728C88F050070C5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A9EA4528C88F050070C5AD /* LaunchScreen.storyboard */; };
 		61A9EA5328C8913F0070C5AD /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A9EA5228C8913F0070C5AD /* State.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,6 @@
 		61A9EA3928C88EFF0070C5AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		61A9EA4128C88EFF0070C5AD /* FinalCountdown.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinalCountdown.xcdatamodel; sourceTree = "<group>"; };
 		61A9EA4328C88F050070C5AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		61A9EA4628C88F050070C5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61A9EA4828C88F050070C5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61A9EA5228C8913F0070C5AD /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				612E2DE3296D9D99007AFE35 /* Cells */,
-				61A9EA4528C88F050070C5AD /* LaunchScreen.storyboard */,
 				612E2DCC296D850E007AFE35 /* ListView.swift */,
 				612E2DDB296D9701007AFE35 /* EventView.swift */,
 			);
@@ -227,7 +224,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61A9EA4728C88F050070C5AD /* LaunchScreen.storyboard in Resources */,
 				61A9EA4428C88F050070C5AD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,17 +279,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		61A9EA4528C88F050070C5AD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				61A9EA4628C88F050070C5AD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		61A9EA4928C88F050070C5AD /* Debug */ = {
