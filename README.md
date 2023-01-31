@@ -17,7 +17,6 @@ Store any important date and watch the time left until it.
 <img src="https://user-images.githubusercontent.com/82824022/212078876-305e0376-c771-452c-acaf-15f5cbb5bfd5.PNG" width=30% height=30%> 
 </p>
 
-This project was the tenth app writen by myself.\
 The main functionality that was applied in this project:
 - CoreData
 - Static UITable
